@@ -302,7 +302,38 @@ main{
             & .box3:hover{
                 background-color: #018ABE;
                 color: white;
-            }    
+            }
+            
+        & .box4{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+           
+            }
+            & p4{
+                width: 16px;
+                height: 16px;
+                background-color: white;
+                border-radius: 3px;
+            }
+            & p5{
+                width: 15px;
+                height: 15px;
+                background-color: grey;
+                border-radius: 3px;
+            }
+            & p6{
+                width: 15px;
+                height: 15px;
+                background-color: grey;
+                border-radius: 3px;
+            }
+            & p7{
+                width: 15px;
+                height: 15px;
+                background-color: grey;
+                border-radius: 3px;
+            }
 }
 
 
