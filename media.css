@@ -4,7 +4,7 @@
     }
     
     header{
-        width: 600px;
+        width: 90%;
         margin: 20px 0 0 10px;
         display: flex;
         position: relative;
@@ -16,12 +16,7 @@
         
         & ul{
             display: none;
-            position: absolute;
-            left: 0;
-            right: 0;
-            max-height: 0;
-            overflow: hidden;
-            text-align: center;
+            
         }
 
         & .menu{
@@ -30,12 +25,12 @@
 
         & button{
             position: absolute;
-            right: 10%; 
+            right: 20%; 
         }
 
         & .menu{
            position: absolute;
-           left: 30%;
+           left: 20%;
            cursor: pointer;
         }
 
@@ -56,23 +51,35 @@
 
         & .index_box1{
             width: 90%;
-            margin-left: 10px;
+            margin:auto;
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
             border-radius: 3%; 
+
+            & h1{
+                font-size: 90%;
+            }
+
+            & h2{
+                font-size: 200%;
+            }
         }
 
         & .index_box2{
             width: 90%;
             position: relative;
+            margin: auto;
+
+            & h3{
+                font-size: 200%;
+            }
             
             & .index_box2_cont{
                 margin: auto;
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-                
             }
             
         }
@@ -90,6 +97,19 @@
                 & .box1{
                     color: white;
                     background-color: #018ABE;
+                    width: 100%;
+                    height: 90%;
+                    padding: 10%;
+
+                    & h5{
+                        font-size: 20px;
+                        width: 100%;
+                    }
+
+                    & p1{
+                        font-size: 10px;
+                        width: 100%;
+                    }
                 }
 
 
@@ -114,6 +134,19 @@
                 & .box3{
                     color: white;
                     background-color: #018ABE;
+                    width: 100%;
+                    height: 90%;
+                    padding: 10%;
+
+                    & h7{
+                        font-size: 20px;
+                        width: 100%;
+                    }
+
+                    & .p11{
+                        font-size: 10px;
+                        width: 100%;
+                    }
                 }
             }
         }
@@ -122,7 +155,7 @@
             width: 100%;
             margin: auto;
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
 
             & img{
                 width: 100%;
@@ -134,19 +167,37 @@
             & .box11{
                 margin-bottom: 20%;
                 margin-left: 5%;
+
+                & h2{
+                    width: 90%;
+                    font-size: 200%;
+                }
+
+                & p{
+                    width: 90%;
+                    font-size: 100%;
+                }
             }
 
             & .box12{
                 display: flex;
                 flex-direction: column;
+
+                & .box12_1{
+                    position: absolute;
+                    left: 5%;
+                }
                 
                 & h2{
-                    text-align: end;
                     margin-top: 5%;
+                    font-size: 200%;
+                    
                 }
 
                 & p{
-                    text-align: end;
+                    font-size: 80%;
+                    width: 90%;
+                    
                 }
             }
         }
@@ -154,6 +205,10 @@
         & .index_box5{
             width: 90%;
             height: 800px;
+
+            & .index_box5_h{
+                font-size: 150%;
+            }
 
             & .index_box5_cont{
                 position: relative;
@@ -165,10 +220,11 @@
             }
             
             & .box14{
-                width: 100%;
+                width: 70%;
+                margin: auto;
                 position: absolute;
                 top: 100%;
-                right: 2%;
+                
                 
             }
         }
@@ -191,6 +247,7 @@
         }
 
         & .index_ft_box2{
+            position: relative;
             width: 80%;
             display: flex;
             margin: auto;
