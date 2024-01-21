@@ -1,0 +1,201 @@
+@media only screen and (max-width:600px){
+    .up{
+        display: none;
+    }
+    
+    header{
+        width: 600px;
+        margin: 20px 0 0 10px;
+        display: flex;
+        position: relative;
+
+        & img{
+            position: absolute;
+            left: 5%;
+        }
+        
+        & ul{
+            display: none;
+            position: absolute;
+            left: 0;
+            right: 0;
+            max-height: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        & .menu{
+            display: block;
+        }
+
+        & button{
+            position: absolute;
+            right: 10%; 
+        }
+
+        & .menu{
+           position: absolute;
+           left: 30%;
+           cursor: pointer;
+        }
+
+        & .menu:checked ~ ul {
+            display: block;
+            max-height: 100%;
+            transition: all .5s;
+
+            & ul{
+                display: block;
+            }
+        }
+    }
+
+
+    main{
+        width: 100%;
+
+        & .index_box1{
+            width: 90%;
+            margin-left: 10px;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            border-radius: 3%; 
+        }
+
+        & .index_box2{
+            width: 90%;
+            position: relative;
+            
+            & .index_box2_cont{
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                
+            }
+            
+        }
+
+        & .index_box3{
+            width: 95%;
+            margin: auto;
+
+            & .index_box3_cont{
+                width: 80%;
+                display: flex;
+                flex-wrap: wrap;
+                margin: auto;
+
+                & .box1{
+                    color: white;
+                    background-color: #018ABE;
+                }
+
+
+                & .box2{
+                    width: 100%;
+                    height: 90%;
+                    padding: 10%;
+
+                    & h6{
+                        font-size: 20px;
+                        width: 100%;
+
+                    }
+
+                    & p2{
+                        font-size: 10px;
+                        width: 100%;
+                    }
+
+                }
+
+                & .box3{
+                    color: white;
+                    background-color: #018ABE;
+                }
+            }
+        }
+
+        & .index_box4{
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+
+            & img{
+                width: 100%;
+                position: absolute;
+                border-radius: 0%;
+                
+            }
+            
+            & .box11{
+                margin-bottom: 20%;
+                margin-left: 5%;
+            }
+
+            & .box12{
+                display: flex;
+                flex-direction: column;
+                
+                & h2{
+                    text-align: end;
+                    margin-top: 5%;
+                }
+
+                & p{
+                    text-align: end;
+                }
+            }
+        }
+
+        & .index_box5{
+            width: 90%;
+            height: 800px;
+
+            & .index_box5_cont{
+                position: relative;
+            }
+
+            & .box13{
+                margin: auto;
+                margin-top: -20%;
+            }
+            
+            & .box14{
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                right: 2%;
+                
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+        margin: auto;
+        margin-top: 20%;
+
+        & .index_ft_box1{
+            display: flex;
+            flex-wrap: wrap;
+            height: max-content;
+            margin: auto
+        }
+
+        & .ft_cont{
+            margin-top: 5%;
+        }
+
+        & .index_ft_box2{
+            width: 80%;
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+
+        }
+    }
+}

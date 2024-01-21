@@ -33,6 +33,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    & .menu{
+        display: none;
+    }
     
 
     & img{
@@ -79,7 +83,7 @@ main{
         height: 600px;
         margin-top: 140px;
         margin: auto;
-        background-image: url(img/first_img.png);
+        background-image: url(img/first_img.svg);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -115,7 +119,7 @@ main{
 
     & .index_box2{
         width: 1296px;
-        height: 699px;
+        height: max-content;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -228,7 +232,7 @@ main{
         display: flex;
         flex-direction: column;
         width: 1736px;
-        height: 585px;
+        height: max-content;
         gap: 100px;
         margin: auto;
 
@@ -401,7 +405,7 @@ main{
             gap: 30px;
             position: relative;
             top: 66px;
-            height: 438px;  
+            height: max-content;  
         }
 
             & h2{
@@ -416,6 +420,7 @@ main{
             }
         & .box12{
             display: flex;
+            position: relative;
         }
             & .box12_1{
                 display: flex;
